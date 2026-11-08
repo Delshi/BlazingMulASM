@@ -1,0 +1,13 @@
+LIBRARY vector_ops
+EXPORTS
+    dot_scalar
+    dot_avx
+    dot_fma
+    had_scalar
+    had_avx
+    had_unroll
+    outer_scalar
+    outer_avx
+    outer_unroll
+    cpu_features
+    run_batch
